@@ -74,7 +74,7 @@ classifier.fit_generator(
 
         
 #Making a single prediction
-import numpy as np
+import numpy as np   
 from keras.preprocessing import image #Imported in order to load the test image -> my_test_image
 my_test_image = image.load_img('Path of the file',target_size=(64, 64))
 my_test_image = image.img_to_array(my_test_image) #Converts 64X64 image into 64X64X3 Array
