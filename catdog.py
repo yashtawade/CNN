@@ -80,4 +80,4 @@ my_test_image = image.load_img('Path of the file',target_size=(64, 64))
 my_test_image = image.img_to_array(my_test_image) #Converts 64X64 image into 64X64X3 Array
 my_test_image = np.exapnd_dims(my_test_image,axis = 0)#
 classifier.predict(my_test_image)
-training_set.class_indices
+training_set.class_indices  
